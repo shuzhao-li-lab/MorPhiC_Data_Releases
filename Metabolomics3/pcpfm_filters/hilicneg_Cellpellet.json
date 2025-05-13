@@ -1,0 +1,12 @@
+{
+    "Instrument Method": {
+        "includes": [
+            "HILIC_neg"
+        ]
+    },
+    "Harvest": {
+        "includes": [
+            "Pellet"
+        ]
+    }
+}

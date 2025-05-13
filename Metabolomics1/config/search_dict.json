@@ -1,0 +1,14 @@
+[
+    ["File Name", "240K", "DirectInfusion"],
+    ["File Name", "Solvent_blank"],
+    ["File Name", "Process_blank"],
+    ["File Name", "Qstd"],
+    ["File Name", "Pool_QC"],
+    ["File Name", "Pool_No_reagent"],
+    ["File Name", "Standard_12C13C"],
+    ["File Name", "Standard_12C_", "Standard_12C"],
+    ["File Name", "Pool_12C13C_", "Pool_12C13C"],
+    ["File Name", "Pool_12C_", "Pool_12C"],
+    ["File Name", "Pool_no_DnCl", "Pooled_Underivatized"],
+    ["File Name", "Pool_no_DnHz", "Pooled_Underivatized"]
+]

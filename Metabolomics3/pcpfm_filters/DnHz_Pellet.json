@@ -1,0 +1,12 @@
+{
+    "Instrument Method": {
+        "includes": [
+            "05012024_DnHz_switchvalve"
+        ]
+    },
+    "Harvest": {
+        "includes": [
+            "Pellet"
+        ]
+    }
+}

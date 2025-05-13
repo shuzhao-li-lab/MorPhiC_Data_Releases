@@ -1,0 +1,12 @@
+{
+    "Instrument Method": {
+        "includes": [
+            "RPpos"
+        ]
+    },
+    "Harvest": {
+        "includes": [
+            "Supernatant"
+        ]
+    }
+}
