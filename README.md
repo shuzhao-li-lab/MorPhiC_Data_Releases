@@ -2,7 +2,7 @@
 
 This repository contains all processing for the morphic data release on 05_15_2025. It implements a metabolomics preprocessing pipeline using the **PCPFM** (Python-Centric Pipeline For Metabolomics) for high-resolution data analysis. The pipeline was developed by Joshua Mitchell, Yuanye Chi, Shuzhoe Li and others at the (Jackson Laboratory) for processing iPSC (induced pluripotent stem cell) metabolomics data, but it can be applied to other LC-MS datasets. **PCPFM** provides an end-to-end solution built on Asari for feature detection, quality control, and annotation. The pipeline accepts raw Thermo `.RAW` files (after conversion to mzML) or directly `.mzML` files, along with sample metadata, and produces human-readable tables of detected metabolomic features with annotations and associated sample information.
 
-This repository is largely for handing off Morphic to the DRACC directly, but the results were used for the metabolomics workbench upload to PR_______.
+This repository is largely for handing off Morphic to the DRACC directly, but the results were used for the metabolomics workbench upload to PR001844.
 
 ## Features
 
