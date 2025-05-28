@@ -6,7 +6,7 @@
     },
     "Harvest": {
         "includes": [
-            "Pellet"
+            "Supernatant"
         ]
     }
 }
