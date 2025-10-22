@@ -14,12 +14,11 @@ run() {
     FILTER=$2
     EXPERIMENT="$BASE$OUTPUT$MODE"
 
-    #python3.11 -m pcpfm assemble -o $BASE -j $OUTPUT$MODE -s $CSV --filter=$FILTER --path_field mzml_path --name_field "File Name"
+    python3.11 -m pcpfm assemble -o $BASE -j $OUTPUT$MODE -s $CSV --filter=$FILTER --path_field mzml_path --name_field "File Name"
 
     if [[ $MODE =~ (DnHz|dnhz|DnCl|dncl) ]]; then
-        #echo "skip"
-        #python3.11 -m pcpfm assemble -o $BASE -j $OUTPUT$MODE -s $CSV --filter=$FILTER --path_field mzml_path --name_field "File Name"
-        #python3.11 -m pcpfm asari -i $EXPERIMENT --extra_asari "--min_peak_height 500000 --min_intensity_threshold 500000"
+        python3.11 -m pcpfm assemble -o $BASE -j $OUTPUT$MODE -s $CSV --filter=$FILTER --path_field mzml_path --name_field "File Name"
+        python3.11 -m pcpfm asari -i $EXPERIMENT --extra_asari "--min_peak_height 500000 --min_intensity_threshold 500000"
         python3.11 -m pcpfm build_empCpds -i $EXPERIMENT -tm preferred -em preferred --add_singletons=True
         python3.11 -m pcpfm generate_output -i $EXPERIMENT -em preferred -tm preferred 
     else
